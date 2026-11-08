@@ -8,10 +8,10 @@
 ## Facts
 - Based in: Mashhad, Iran
 - Experience: 5 years with Arabic-speaking guests
-- Languages of the site: Arabic (default, right-to-left) and English (https://travel4iran.github.io/Travel-Amin/en/)
+- Languages of the site: Arabic (default, right-to-left) and English (https://travel4iran.github.io/en/)
 
 ## Links
-- Website: https://travel4iran.github.io/Travel-Amin/
+- Website: https://travel4iran.github.io/
 - Instagram: https://instagram.com/travel.amin
 - Telegram: https://t.me/travel_amin
 - WhatsApp: +98 939 546 4608
