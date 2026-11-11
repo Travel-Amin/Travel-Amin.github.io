@@ -3,19 +3,19 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://travel4iran.github.io/</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://travel4iran.github.io/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://travel4iran.github.io/en/"/>
-    <lastmod>2026-11-08</lastmod>
+    <loc>https://travel-amin.github.io/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://travel-amin.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://travel-amin.github.io/en/"/>
+    <lastmod>2026-11-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://travel4iran.github.io/en/</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://travel4iran.github.io/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://travel4iran.github.io/en/"/>
-    <lastmod>2026-11-08</lastmod>
+    <loc>https://travel-amin.github.io/en/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://travel-amin.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://travel-amin.github.io/en/"/>
+    <lastmod>2026-11-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>

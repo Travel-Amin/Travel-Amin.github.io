@@ -4,7 +4,7 @@
 // SECURITY: only these origins may read the data from a browser.
 // When the real domain is live, add it here (and keep the github.io one while it is still used).
 const ALLOWED_ORIGINS = [
-  "https://travel4iran.github.io",
+  "https://travel-amin.github.io",
   // "https://www.example.com",
 ];
 const UPSTREAM = "https://tgju.amirhossein.info/api/price/currency"; // the ONLY URL this worker will fetch

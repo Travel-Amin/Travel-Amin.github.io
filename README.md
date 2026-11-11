@@ -56,7 +56,7 @@ GitHub Pages **هدر امنیتی** پشتیبانی نمی‌کند، اما C
 ## نرخ ارز (Worker)
 
 مرورگر مستقیم از TGJU نمی‌تواند بخواند (CORS)، پس `worker/rates-worker.js` را روی Cloudflare Workers قرار دهید.
-`ALLOWED_ORIGINS` همان فایل فعلاً فقط `https://travel4iran.github.io` را دارد. وقتی دامنه‌ی اختصاصی وصل شد، آن را هم به لیست اضافه کنید و Worker را دوباره Deploy کنید.
+`ALLOWED_ORIGINS` همان فایل فعلاً فقط `https://travel-amin.github.io` را دارد. وقتی دامنه‌ی اختصاصی وصل شد، آن را هم به لیست اضافه کنید و Worker را دوباره Deploy کنید.
 اگر نام Worker را عوض کردید، آدرس جدید را در `config.js`، متای CSP در `index.html`، `en/index.html` و `404.html` و فایل `_headers` به‌روز کنید.
 
 ## امنیت
