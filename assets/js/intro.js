@@ -10,7 +10,7 @@
     try{sessionStorage.setItem("ta_intro","1")}catch(e){}
     timers.forEach(clearTimeout);
     el.classList.add("leave");
-    setTimeout(function(){root.classList.remove("intro"); if(el.parentNode) el.parentNode.removeChild(el)},850);
+    setTimeout(function(){root.classList.remove("intro"); if(el.parentNode) el.parentNode.removeChild(el)},450);
   }
 
   /* shrine skyline behind (cloned from hero) */
@@ -50,7 +50,7 @@
     num.textContent=Math.round(p*100); bar.style.width=(p*100)+"%"; ring.style.strokeDashoffset=351.86*(1-p);
   }
   setP(0);
-  var T=2800, t0=0;
+  var T=800, t0=0;   /* مدة الرحلة: قصيرة حتى لا تتأخر رؤية المحتوى */
   function ease(x){return -(Math.cos(Math.PI*x)-1)/2}
   function frame(now){
     if(finished) return;
@@ -59,24 +59,24 @@
     setP(ease(x));
     if(x<1) requestAnimationFrame(frame); else arrived();
   }
-  later(function(){requestAnimationFrame(frame)},350);
+  requestAnimationFrame(frame);
 
   function arrived(){
     $("toCard").classList.add("arrived");
     el.classList.add("arrived-all");
     $("inTitle").textContent=TA.arrived;
-    later(function(){el.classList.add("phase-pass")},400);
-    later(function(){el.classList.add("open")},1000);
+    later(function(){el.classList.add("phase-pass")},180);
+    later(function(){el.classList.add("open")},330);
     later(function(){
       el.classList.add("stamped");
       var pp=$("pp"); pp.classList.add("shake");
       try{navigator.vibrate&&navigator.vibrate(35)}catch(e){}
-    },1500);
-    later(finish,2200);
+    },470);
+    later(finish,620);
   }
   /* زر التخطي + Escape */
   var sk=$("inSkip"); if(sk) sk.addEventListener("click",finish);
   document.addEventListener("keydown",function(e){if(e.key==="Escape") finish()});
   /* safety */
-  later(finish,8000);
+  later(finish,4000);
 })();

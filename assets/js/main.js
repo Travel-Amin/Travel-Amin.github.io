@@ -208,9 +208,22 @@
   }
   
   $$(".g4,.g3,.pstack").forEach(function(r){var s=makeStack(r); if(s) stacks.push(s)});
-  function applyStacks(){stacks.forEach(function(s){(mq.matches||s.always)?(s.enable(),s.size()):s.disable()})}
+  function applyStacks(){
+    var act=[];
+    /* کل نوشتن‌ها اول، سپس اندازه‌گیری در فریم بعد؛ تا layout اجباری تکرار نشود */
+    stacks.forEach(function(s){
+      var on=(mq.matches||s.always);
+      act.push([s,on]);
+      if(on) s.enable(); else s.disable();
+    });
+    requestAnimationFrame(function(){act.forEach(function(p){if(p[1]) p[0].size()})});
+  }
   applyStacks();
-  window.addEventListener("resize",applyStacks);
+  var rzq=0;
+  window.addEventListener("resize",function(){
+    if(rzq) return;
+    rzq=requestAnimationFrame(function(){rzq=0;applyStacks()});
+  },{passive:true});
   window.addEventListener("load",applyStacks);
   window.TA_stack={
     add:function(row){var s=makeStack(row); if(!s) return null; stacks.push(s); if(mq.matches||s.always){s.enable();s.size()}else s.disable(); return s},

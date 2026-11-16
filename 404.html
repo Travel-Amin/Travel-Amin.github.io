@@ -2,20 +2,23 @@
 <html lang="ar" dir="rtl">
 <head>
 <meta charset="utf-8">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' https://travelamin-rate.mafia099x.workers.dev; base-uri 'self'; form-action 'none'; object-src 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-wrkAcbnCgxqAE70ulj5LisKI2tnJkz/qDW62uePdLRg='; style-src 'self'; font-src 'self'; img-src 'self' data:; connect-src 'self' https://travelamin-rate.mafia099x.workers.dev; base-uri 'self'; form-action 'none'; object-src 'none'">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- يضمن تحميل الملفات حتى لو كان الرابط الخاطئ داخل مجلد. الموقع منشور على جذر النطاق. -->
 <base href="/">
 <meta name="robots" content="noindex">
 <title>الصفحة غير موجودة | Page not found | Travel Amin</title>
 <link rel="icon" type="image/png" href="assets/img/favicon.png">
-<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css?v=20261108">
-<script src="assets/js/theme-init.js?v=20261108"></script>
+<link rel="stylesheet" href="assets/css/style.css?v=20261116">
+<script>(function(){var r=document.documentElement,t=null;try{t=localStorage.getItem("ta_theme")}catch(e){}if(t!=="dark"&&t!=="light"){try{t=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}catch(e){t="light"}}r.setAttribute("data-theme",t);var sw=false;try{var v=sessionStorage.getItem("ta_langsw");if(v){sessionStorage.removeItem("ta_langsw");var a=v.split(",");r.style.setProperty("--lx",(+a[0]||0)+"px");r.style.setProperty("--ly",(+a[1]||0)+"px");r.classList.add("lang-in");sw=true;setTimeout(function(){r.classList.remove("lang-in")},1400)}}catch(e){}try{var home=r.hasAttribute("data-home"),en=(r.lang||"").slice(0,2)==="en";if(home&&!en&&localStorage.getItem("ta_lang")==="en"&&!/[?&]lang=ar/.test(location.search)){location.replace("en/"+location.hash);return}var calm=matchMedia("(prefers-reduced-motion: reduce)").matches;if(home&&!calm&&!sw&&sessionStorage.getItem("ta_intro")!=="1"){r.classList.add("intro");setTimeout(function(){r.classList.remove("intro")},4000)}}catch(e){}})();</script>
+<link rel="preload" href="assets/fonts/tajawal-400-arabic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/img/logo.avif" as="image" type="image/avif" fetchpriority="high">
+<link rel="preload" href="assets/img/logo.webp" as="image" type="image/webp" fetchpriority="high">
+<link rel="preload" href="assets/img/logo.jpg" as="image" type="image/jpeg" fetchpriority="high">
 </head>
 <body>
 <main class="container center" id="main">
-  <img src="assets/img/logo.jpg" alt="Travel Amin" width="120" height="120" class="e404-logo">
+  <picture><source type="image/avif" srcset="assets/img/logo.avif"><source type="image/webp" srcset="assets/img/logo.webp"><img src="assets/img/logo.jpg" alt="Travel Amin" width="120" height="120" class="e404-logo"></picture>
   <h1>٤٠٤ – الصفحة غير موجودة</h1>
   <p class="lead">الرابط الذي فتحته غير صحيح أو تم نقله.</p>
   <p><a class="btn btn-gold" href="./">العودة إلى الصفحة الرئيسية</a></p>

@@ -64,7 +64,12 @@
     });
     if(window.TA_stack) stackH=TA_stack.add(grid);
   }
-  function skeleton(){unstack(); grid.innerHTML='<div class="rate card sk"></div><div class="rate card sk"></div><div class="rate card sk"></div><div class="rate card sk"></div>'}
+  function skeleton(){
+    /* عدد الهياكل = عدد العملات المعروضة، حتى لا يتغير ارتفاع القسم عند وصول الأسعار (CLS) */
+    unstack(); grid.innerHTML="";
+    var n=Math.min((cfg.show||["USD"]).length, cfg.max||12)||1;
+    for(var i=0;i<n;i++){var d=document.createElement("div"); d.className="rate card sk"; grid.appendChild(d)}
+  }
   function hhmm(){var d=new Date();return ("0"+d.getHours()).slice(-2)+":"+("0"+d.getMinutes()).slice(-2)}
   
   var last=0, busy=false;
