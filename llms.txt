@@ -1,0 +1,32 @@
+# Travel Amin
+
+> Arabic-language website of Amin, a tour guide based in Mashhad, Iran. It offers tourism and medical-travel coordination in Iran for Arabic-speaking travelers. Contact and booking happen directly on WhatsApp; the site has no backend and shows no fixed prices.
+
+Medical travel is consultation and coordination only: no medical advice and no guarantee of results. Prices are not fixed; a quote is given on request via WhatsApp, based on the trip. Based in Mashhad, with 5 years of experience with Arabic-speaking guests. The site is available in Arabic (default, right-to-left) and English.
+
+## Main pages (Arabic)
+- [Home](https://travel-amin.github.io/): Arabic homepage (default language, right-to-left)
+- [About](https://travel-amin.github.io/#about): Who Amin is and his experience with Arabic-speaking guests
+- [Tourism](https://travel-amin.github.io/#tourism): Guide, airport transfer, accommodation suggestions and daily itinerary in Mashhad, Tehran, northern Iran and nature destinations
+- [Medical travel](https://travel-amin.github.io/#medical): Coordination for cosmetic surgery, dentistry, fertility treatment and general check-ups
+- [Rates](https://travel-amin.github.io/#rates): How pricing works and how to get a quote
+- [FAQ](https://travel-amin.github.io/#faq): Frequently asked questions
+- [Booking](https://travel-amin.github.io/#booking): How to book a trip
+- [Contact](https://travel-amin.github.io/#contact): Contact details
+
+## Main pages (English)
+- [Home](https://travel-amin.github.io/en/): English homepage
+- [About](https://travel-amin.github.io/en/#about): Who Amin is and his experience with Arabic-speaking guests
+- [Tourism](https://travel-amin.github.io/en/#tourism): Guide, airport transfer, accommodation suggestions and daily itinerary in Mashhad, Tehran, northern Iran and nature destinations
+- [Medical travel](https://travel-amin.github.io/en/#medical): Coordination for cosmetic surgery, dentistry, fertility treatment and general check-ups
+- [Rates](https://travel-amin.github.io/en/#rates): How pricing works and how to get a quote
+- [FAQ](https://travel-amin.github.io/en/#faq): Frequently asked questions
+- [Booking](https://travel-amin.github.io/en/#booking): How to book a trip
+- [Contact](https://travel-amin.github.io/en/#contact): Contact details
+
+## Contact
+- [WhatsApp](https://wa.me/989395464608): Primary channel for booking and price quotes
+
+## Optional
+- [Instagram](https://instagram.com/travel.amin)
+- [Telegram](https://t.me/travel_amin)
