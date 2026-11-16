@@ -7,7 +7,7 @@ const ALLOWED_ORIGINS = [
   "https://travel-amin.github.io",
   // "https://www.example.com",
 ];
-const UPSTREAM = "https://tgju.amirhossein.info/api/price/currency"; // the ONLY URL this worker will fetch
+const UPSTREAM = "https://travelamin-rate.mafia099x.workers.dev/"; // the ONLY URL this worker will fetch
 
 export default {
   async fetch(request) {
